@@ -140,7 +140,7 @@ function checkForWin() {
 
   // TODO: read and understand this code. Add comments to help you.
 
-  //Code checks for all possible ways to win by looping through
+  //Code checks for all possible ways to win by looping through the width and the height, seeing if the cells containing pieces are in an equivalent placement to the variables defined below.Then if one of the variables is acheived with the _win() function the current player wins the game
 
   for (let y = 0; y < HEIGHT; y++) {
     for (let x = 0; x < WIDTH; x++) {
