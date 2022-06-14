@@ -14,7 +14,8 @@ const board = []; // array of rows, each row is array of cells  (board[y][x])
 /** makeBoard: create in-JS board structure:
  *    board = array of rows, each row is array of cells  (board[y][x])
  */
-
+//Don't feel pressure to write one liners
+//For loop in a for loop
 function makeBoard() {
   // TODO: set "board" to empty HEIGHT x WIDTH matrix array
  for(let y = 0; y <= HEIGHT; y++){
